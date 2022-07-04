@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DogPhotoApp</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+   <h1>DogPhotoApp</h1>
+   <main class="main">
+     <div class="dog-photos">
+       <h2>Dog Photos</h2>
+       <!-- TODO: Add link to dog photos -->
+       <p>Click here to view more <a target="_blank" href="indexB.html">dog photos</a>.</p>
+       <a href="indexB.html"><img src="https://images.unsplash.com/photo-1556866261-8763a7662333?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="A cute orange cat lying on its back."></a>
+     </div>
+     <div class="dog-lists">
+       <h2>Dog Lists</h2>
+       <h3>Things dogs love:</h3>
+       <ul>
+         <li>licking</li>
+         <li>frisbees</li>
+         <li>bones</li>
+       </ul>
+       <figure>
+         <img src="https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="bones">
+         <figcaption>Dogs <em>love</em> bones.</figcaption>
+       </figure>
+       <h3>Top 3 things dogs hate:</h3>
+       <ol>
+         <li>bathing</li>
+         <li>thunder</li>
+         <li>fireworks</li>
+       </ol>
+       <figure>
+         <img src="https://images.unsplash.com/photo-1455103493930-a116f655b6c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2NhcmVkJTIwZG9nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Five cats looking around a field.">
+         <figcaption>Dogs <strong>hate</strong> fireworks.</figcaption>
+       </figure>
+     </div>
+     <div class="our-form">
+       <h2>Dog Form</h2>
+       <form action="">
+         <fieldset>
+           <legend>Is your dog an indoor or outdoor dog?</legend>
+           <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+           <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+         </fieldset>
+         <fieldset>
+           <legend>What's your dog's personality?</legend>
+           <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+           <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+           <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+         </fieldset>
+         <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+         <button type="submit">Submit</button>
+       </form>
+     </div>
+   </main>
+   <footer>
+     <p>
+       No Copyright - <a href="">by nigel</a>
+     </p>
+   </footer>
+ </body>
+</html>
